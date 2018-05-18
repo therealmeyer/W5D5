@@ -13,9 +13,9 @@ class Clock {
   }
 
   printTime() {
-    this.hours = (this.hours < 10 && this.hours.toString().length < 2) ? "0" + this.hours : this.hours;
-    this.minutes = (this.minutes < 10 && this.minutes.toString().length < 2) ? "0" + this.minutes : this.minutes;
-    this.seconds = (this.seconds < 10 && this.seconds.toString().length < 2) ? "0" + this.seconds : this.seconds;
+    // this.hours = (this.hours < 10 && this.hours.toString().length < 2) ? "0" + this.hours : this.hours;
+    // this.minutes = (this.minutes < 10 && this.minutes.toString().length < 2) ? "0" + this.minutes : this.minutes;
+    // this.seconds = (this.seconds < 10 && this.seconds.toString().length < 2) ? "0" + this.seconds : this.seconds;
 
     console.log(`${this.hours}:${this.minutes}:${this.seconds}`);
     // Format the time in HH:MM:SS
@@ -51,4 +51,4 @@ class Clock {
   }
 }
 
-const clock = new Clock();
+// const clock = new Clock();
